@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Xfp-VS-HFL">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -38,11 +38,22 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2h-tV-1hK">
+                                <rect key="frame" x="243" y="445" width="114" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="rgl-VN-h0J"/>
+                                </constraints>
+                                <state key="normal" title="Git Onboard!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="S2h-tV-1hK" secondAttribute="bottom" constant="76" id="5uM-pI-L5S"/>
                             <constraint firstItem="3gs-G9-whW" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="Fyf-rY-mad"/>
                             <constraint firstItem="KQZ-1w-vlD" firstAttribute="centerX" secondItem="A5M-7J-77L" secondAttribute="centerX" constant="-1" id="Sg9-e4-xTR"/>
+                            <constraint firstItem="S2h-tV-1hK" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="biM-co-M5Q"/>
                             <constraint firstItem="KQZ-1w-vlD" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="bx2-ZI-qaS"/>
                             <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="hWy-ww-5sx"/>
                             <constraint firstItem="3gs-G9-whW" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="jNd-mk-tEu"/>
@@ -179,73 +190,28 @@
             </objects>
             <point key="canvasLocation" x="-66" y="1147"/>
         </scene>
-        <!--Page View Controller-->
-        <scene sceneID="eRX-Wc-76a">
+        <!--Onboarding-->
+        <scene sceneID="qTp-r9-cPe">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="g2c-e1-R3n" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EN1-bL-LcC" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-66" y="-417"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="dBJ-72-xoW">
-            <objects>
-                <viewController id="sh0-Pi-fvT" sceneMemberID="viewController">
+                <viewController title="Onboarding" id="Xfp-VS-HFL" customClass="OnboardViewController" customModule="haikubo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="MnM-yV-eVz"/>
-                        <viewControllerLayoutGuide type="bottom" id="w8i-p1-vc5"/>
+                        <viewControllerLayoutGuide type="top" id="811-g1-N08"/>
+                        <viewControllerLayoutGuide type="bottom" id="mZU-0T-Eu0"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="jo3-FL-3Zz">
+                    <view key="view" contentMode="scaleToFill" id="7P2-RA-zBW">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="46n-cS-pvm">
-                                <rect key="frame" x="0.0" y="0.0" width="610" height="551"/>
-                            </scrollView>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="uC8-Is-T8d">
-                                <rect key="frame" x="281" y="555" width="39" height="37"/>
-                            </pageControl>
-                        </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qti-fl-uCI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HVA-kI-YNh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="574" y="-417"/>
+            <point key="canvasLocation" x="-778" y="360"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="gDt-pG-sit">
-            <objects>
-                <viewController id="1Xq-11-QKz" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="t6e-es-4nG"/>
-                        <viewControllerLayoutGuide type="bottom" id="9ps-rn-ukc"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Mgl-tQ-xtF">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ONBOARD 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENy-Qy-5yB">
-                                <rect key="frame" x="220" y="178" width="160" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="MLa-Y1-Vq9">
-                                <rect key="frame" x="281" y="511" width="39" height="37"/>
-                            </pageControl>
-                        </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="00S-Xg-SXb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1209" y="-417"/>
-        </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                <tabBarController id="49e-Tb-3d3" customClass="MainBarController" customModule="haikubo" customModuleProvider="target" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>

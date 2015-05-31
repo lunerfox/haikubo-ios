@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7C28F590D7C8D4B30760D664 /* libPods-haikuboTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 587A81305F2EC9CD7215B6E2 /* libPods-haikuboTests.a */; };
+		972B7B6C1B1B4488000B3175 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972B7B6B1B1B4488000B3175 /* OnboardViewController.swift */; };
+		972B7B6E1B1B50C8000B3175 /* MainBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972B7B6D1B1B50C8000B3175 /* MainBarController.swift */; };
 		973D0E011B1A87E400E6CBC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973D0E001B1A87E400E6CBC0 /* AppDelegate.swift */; };
 		973D0E031B1A87E400E6CBC0 /* WorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973D0E021B1A87E400E6CBC0 /* WorldViewController.swift */; };
 		973D0E051B1A87E400E6CBC0 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973D0E041B1A87E400E6CBC0 /* DiscoverViewController.swift */; };
@@ -35,6 +37,8 @@
 		498B93641DD3A9EE18C64FCE /* Pods-haikuboTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haikuboTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-haikuboTests/Pods-haikuboTests.debug.xcconfig"; sourceTree = "<group>"; };
 		587A81305F2EC9CD7215B6E2 /* libPods-haikuboTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-haikuboTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		972B7B681B1B3CE0000B3175 /* ObjC-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjC-Bridge.h"; sourceTree = "<group>"; };
+		972B7B6B1B1B4488000B3175 /* OnboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
+		972B7B6D1B1B50C8000B3175 /* MainBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainBarController.swift; sourceTree = "<group>"; };
 		973D0DFB1B1A87E400E6CBC0 /* haikubo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = haikubo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		973D0DFF1B1A87E400E6CBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		973D0E001B1A87E400E6CBC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 			children = (
 				973D0E001B1A87E400E6CBC0 /* AppDelegate.swift */,
 				972B7B681B1B3CE0000B3175 /* ObjC-Bridge.h */,
+				972B7B6B1B1B4488000B3175 /* OnboardViewController.swift */,
+				972B7B6D1B1B50C8000B3175 /* MainBarController.swift */,
 				973D0E021B1A87E400E6CBC0 /* WorldViewController.swift */,
 				973D0E041B1A87E400E6CBC0 /* DiscoverViewController.swift */,
 				973D0E361B1AED8B00E6CBC0 /* PostViewController.swift */,
@@ -319,10 +325,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				972B7B6E1B1B50C8000B3175 /* MainBarController.swift in Sources */,
 				973D0E371B1AED8B00E6CBC0 /* PostViewController.swift in Sources */,
 				973D0E051B1A87E400E6CBC0 /* DiscoverViewController.swift in Sources */,
 				973D0E011B1A87E400E6CBC0 /* AppDelegate.swift in Sources */,
 				973D0E031B1A87E400E6CBC0 /* WorldViewController.swift in Sources */,
+				972B7B6C1B1B4488000B3175 /* OnboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

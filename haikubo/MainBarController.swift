@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  MainBarController.swift
 //  haikubo
 //
 //  Created by Leo Szeto on 5/31/15.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class PostViewController: UIViewController {
-    
+class MainBarController: UITabBarController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        println("Post View Controller Loaded into Memory. [viewDidLoad]")
+        println("Main Bar Controller Loaded into Memory. [viewDidLoad]")
         // Do any additional setup after loading the view, typically from a nib.
-       
     }
     
     override func didReceiveMemoryWarning() {
@@ -23,12 +22,12 @@ class PostViewController: UIViewController {
     }
     
     override func viewDidAppear(animated: Bool) {
-        println("Post View Controller Appeared. [viewDidAppear]")
+        println("Main Bar Controller Appeared. [viewDidAppear]")
     }
     
     override func viewDidDisappear(animated: Bool) {
-        println("Post View Controller Disappeared. [viewDidDisappear]")
+        println("Main Bar Controller Disappeared. [viewDidDisappear]")
     }
+
     
 }
-

@@ -13,5 +13,6 @@
 #define haikubo_ObjC_Bridge_h
 
 #import <Onboard/OnboardingViewController.h>
+#import <Onboard/OnboardingContentViewController.h>
 
 #endif
