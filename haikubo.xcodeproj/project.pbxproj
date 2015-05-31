@@ -14,12 +14,6 @@
 		973D0E0A1B1A87E500E6CBC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 973D0E091B1A87E500E6CBC0 /* Images.xcassets */; };
 		973D0E0D1B1A87E500E6CBC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 973D0E0B1B1A87E500E6CBC0 /* LaunchScreen.xib */; };
 		973D0E191B1A87E500E6CBC0 /* haikuboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973D0E181B1A87E500E6CBC0 /* haikuboTests.swift */; };
-		973D0E271B1AA36B00E6CBC0 /* globe-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 973D0E241B1AA36B00E6CBC0 /* globe-25.png */; };
-		973D0E281B1AA36B00E6CBC0 /* globe-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 973D0E251B1AA36B00E6CBC0 /* globe-32.png */; };
-		973D0E291B1AA36B00E6CBC0 /* globe-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 973D0E261B1AA36B00E6CBC0 /* globe-50.png */; };
-		973D0E2D1B1AA3D200E6CBC0 /* chisel_tip_marker-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 973D0E2A1B1AA3D200E6CBC0 /* chisel_tip_marker-25.png */; };
-		973D0E2E1B1AA3D200E6CBC0 /* chisel_tip_marker-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 973D0E2B1B1AA3D200E6CBC0 /* chisel_tip_marker-32.png */; };
-		973D0E2F1B1AA3D200E6CBC0 /* chisel_tip_marker-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 973D0E2C1B1AA3D200E6CBC0 /* chisel_tip_marker-50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,12 +38,6 @@
 		973D0E121B1A87E500E6CBC0 /* haikuboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = haikuboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		973D0E171B1A87E500E6CBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		973D0E181B1A87E500E6CBC0 /* haikuboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haikuboTests.swift; sourceTree = "<group>"; };
-		973D0E241B1AA36B00E6CBC0 /* globe-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "globe-25.png"; sourceTree = "<group>"; };
-		973D0E251B1AA36B00E6CBC0 /* globe-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "globe-32.png"; sourceTree = "<group>"; };
-		973D0E261B1AA36B00E6CBC0 /* globe-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "globe-50.png"; sourceTree = "<group>"; };
-		973D0E2A1B1AA3D200E6CBC0 /* chisel_tip_marker-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chisel_tip_marker-25.png"; sourceTree = "<group>"; };
-		973D0E2B1B1AA3D200E6CBC0 /* chisel_tip_marker-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chisel_tip_marker-32.png"; sourceTree = "<group>"; };
-		973D0E2C1B1AA3D200E6CBC0 /* chisel_tip_marker-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chisel_tip_marker-50.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,12 +127,6 @@
 		973D0E231B1AA18400E6CBC0 /* icons */ = {
 			isa = PBXGroup;
 			children = (
-				973D0E2A1B1AA3D200E6CBC0 /* chisel_tip_marker-25.png */,
-				973D0E2B1B1AA3D200E6CBC0 /* chisel_tip_marker-32.png */,
-				973D0E2C1B1AA3D200E6CBC0 /* chisel_tip_marker-50.png */,
-				973D0E241B1AA36B00E6CBC0 /* globe-25.png */,
-				973D0E251B1AA36B00E6CBC0 /* globe-32.png */,
-				973D0E261B1AA36B00E6CBC0 /* globe-50.png */,
 			);
 			name = icons;
 			sourceTree = "<group>";
@@ -229,15 +211,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				973D0E291B1AA36B00E6CBC0 /* globe-50.png in Resources */,
-				973D0E271B1AA36B00E6CBC0 /* globe-25.png in Resources */,
-				973D0E2E1B1AA3D200E6CBC0 /* chisel_tip_marker-32.png in Resources */,
-				973D0E2D1B1AA3D200E6CBC0 /* chisel_tip_marker-25.png in Resources */,
 				973D0E081B1A87E400E6CBC0 /* Main.storyboard in Resources */,
-				973D0E281B1AA36B00E6CBC0 /* globe-32.png in Resources */,
 				973D0E0D1B1A87E500E6CBC0 /* LaunchScreen.xib in Resources */,
 				973D0E0A1B1A87E500E6CBC0 /* Images.xcassets in Resources */,
-				973D0E2F1B1AA3D200E6CBC0 /* chisel_tip_marker-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +429,7 @@
 				973D0E1E1B1A87E500E6CBC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		973D0E1F1B1A87E500E6CBC0 /* Build configuration list for PBXNativeTarget "haikuboTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +438,7 @@
 				973D0E211B1A87E500E6CBC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
