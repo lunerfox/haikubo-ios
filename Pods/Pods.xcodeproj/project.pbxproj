@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02FFE5F59070DB1D4B4E543E /* Pods-haikuboTests-Onboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4317FC40C809BBC6EAA818 /* Pods-haikuboTests-Onboard-dummy.m */; };
+		246266495BDD4E8AC4082470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D163CDD2E91EFEFAF9D6A4 /* Foundation.framework */; };
+		2FB02794EC053491913A37D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D163CDD2E91EFEFAF9D6A4 /* Foundation.framework */; };
+		33BC25838C8D0CFCA353A1A0 /* Pods-haikuboTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 775E7154FAA74A8DA007EEC7 /* Pods-haikuboTests-dummy.m */; };
+		3BDE7243F1F14AD055F918A0 /* Pods-haikubo-Onboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 119D55679F32AD56B4EABE7F /* Pods-haikubo-Onboard-dummy.m */; };
+		455CD775EF9DADDEBFAEB031 /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C443B942689A3ABCD4ABA83 /* OnboardingViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6B2A132A0912CFD4129E7D44 /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C443B942689A3ABCD4ABA83 /* OnboardingViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6E43DDAD6301AA52A07C2A3C /* OnboardingContentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DBA88E5ACC06E3956812A8F3 /* OnboardingContentViewController.h */; };
+		8805CB41200ADE9ED0F55199 /* OnboardingContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D48024B3238615F4C3CD390 /* OnboardingContentViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8B7D30573FACBFE1077E5FE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D163CDD2E91EFEFAF9D6A4 /* Foundation.framework */; };
+		9D4E99889DB7D2CB249AF63F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D163CDD2E91EFEFAF9D6A4 /* Foundation.framework */; };
+		B2800A6F4EBAAA73AE7AAB66 /* OnboardingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E1247DACEFB2C56ACDA398B5 /* OnboardingViewController.h */; };
+		BF29B1AE4F48E734E724BBB7 /* OnboardingContentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DBA88E5ACC06E3956812A8F3 /* OnboardingContentViewController.h */; };
+		DC4D8E6219B8CA718359E1EC /* OnboardingContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D48024B3238615F4C3CD390 /* OnboardingContentViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E6630BE43823437D445AB49D /* Pods-haikubo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DE9BB5D57C3F7FD1C5F896 /* Pods-haikubo-dummy.m */; };
+		F18CB9922F3EC7D7D58CA513 /* OnboardingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E1247DACEFB2C56ACDA398B5 /* OnboardingViewController.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D1BB44D0E012721011B7341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D06740A0157E1C4993ED3F22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4160CF3C43F9F5153126F441;
+			remoteInfo = "Pods-haikuboTests-Onboard";
+		};
+		8F3A51506F5480C892D0C07E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D06740A0157E1C4993ED3F22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4C4973B0B1B52A54117B1FD;
+			remoteInfo = "Pods-haikubo-Onboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A4C1607FE22A8A8A496E4A /* Pods-haikuboTests-Onboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haikuboTests-Onboard.xcconfig"; path = "../Pods-haikuboTests-Onboard/Pods-haikuboTests-Onboard.xcconfig"; sourceTree = "<group>"; };
+		09CE1E2BBE5794054E78DAF8 /* Pods-haikubo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-haikubo-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B167490C25F2034B53CA116 /* Pods-haikuboTests-Onboard-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haikuboTests-Onboard-Private.xcconfig"; path = "../Pods-haikuboTests-Onboard/Pods-haikuboTests-Onboard-Private.xcconfig"; sourceTree = "<group>"; };
+		0D48024B3238615F4C3CD390 /* OnboardingContentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OnboardingContentViewController.m; path = "Objective-C/Onboard/OnboardingContentViewController.m"; sourceTree = "<group>"; };
+		119D55679F32AD56B4EABE7F /* Pods-haikubo-Onboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-haikubo-Onboard-dummy.m"; sourceTree = "<group>"; };
+		17B1CB321CBB78F541CCB2CE /* Pods-haikuboTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-haikuboTests-environment.h"; sourceTree = "<group>"; };
+		1A39F1D76538472BDCEE57B2 /* Pods-haikubo-Onboard-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-haikubo-Onboard-Private.xcconfig"; sourceTree = "<group>"; };
+		1C443B942689A3ABCD4ABA83 /* OnboardingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OnboardingViewController.m; path = "Objective-C/Onboard/OnboardingViewController.m"; sourceTree = "<group>"; };
+		2C3AA0BDFBDC6B2D33B34255 /* Pods-haikubo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-haikubo.release.xcconfig"; sourceTree = "<group>"; };
+		2F4317FC40C809BBC6EAA818 /* Pods-haikuboTests-Onboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-haikuboTests-Onboard-dummy.m"; path = "../Pods-haikuboTests-Onboard/Pods-haikuboTests-Onboard-dummy.m"; sourceTree = "<group>"; };
+		351997E4E9397E6C9E61BE1B /* libPods-haikubo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-haikubo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B0076E17B6E9C79D21F62D /* Pods-haikubo-Onboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-haikubo-Onboard.xcconfig"; sourceTree = "<group>"; };
+		423EE86061645C1968EC8D41 /* libPods-haikuboTests-Onboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-haikuboTests-Onboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D35E97DD7C5F5431B067FEF /* Pods-haikuboTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-haikuboTests.release.xcconfig"; sourceTree = "<group>"; };
+		659AC6682E4577813FB75792 /* libPods-haikuboTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-haikuboTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B56E3260F1E76FE938FE4F7 /* Pods-haikubo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-haikubo.debug.xcconfig"; sourceTree = "<group>"; };
+		6D74C117E7EB4B227C3DA072 /* Pods-haikubo-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-haikubo-environment.h"; sourceTree = "<group>"; };
+		6DA85F65280779C54A2E0073 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		775E7154FAA74A8DA007EEC7 /* Pods-haikuboTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-haikuboTests-dummy.m"; sourceTree = "<group>"; };
+		7A5F61B46453EFA005D5922C /* Pods-haikubo-Onboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-haikubo-Onboard-prefix.pch"; sourceTree = "<group>"; };
+		884C456939CB026EDEF2CBFC /* Pods-haikubo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-haikubo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88CB2FC7629F4D2439D20D49 /* libPods-haikubo-Onboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-haikubo-Onboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9462492A1BDE75DDEEC6E4D3 /* Pods-haikuboTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-haikuboTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94D163CDD2E91EFEFAF9D6A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		98C5E26D59F41E311E9FF61E /* Pods-haikuboTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-haikuboTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		98DE9BB5D57C3F7FD1C5F896 /* Pods-haikubo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-haikubo-dummy.m"; sourceTree = "<group>"; };
+		A0C67EEF753CD130257BED24 /* Pods-haikubo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-haikubo-resources.sh"; sourceTree = "<group>"; };
+		B45D67B61BB8753D56BFDFBA /* Pods-haikuboTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-haikuboTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C561A2D9A600B580FE0037EA /* Pods-haikuboTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-haikuboTests-resources.sh"; sourceTree = "<group>"; };
+		DBA88E5ACC06E3956812A8F3 /* OnboardingContentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OnboardingContentViewController.h; path = "Objective-C/Onboard/OnboardingContentViewController.h"; sourceTree = "<group>"; };
+		DE56148DB5A3CE33F1D14887 /* Pods-haikuboTests-Onboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-haikuboTests-Onboard-prefix.pch"; path = "../Pods-haikuboTests-Onboard/Pods-haikuboTests-Onboard-prefix.pch"; sourceTree = "<group>"; };
+		E1247DACEFB2C56ACDA398B5 /* OnboardingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OnboardingViewController.h; path = "Objective-C/Onboard/OnboardingViewController.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1516AD4257CA4BCBF147513E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7D30573FACBFE1077E5FE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A2860B0610D0A2D670C0800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246266495BDD4E8AC4082470 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91462259D6B09C3B05E5DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB02794EC053491913A37D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68A85F5AA4BE786DA2DB027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4E99889DB7D2CB249AF63F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		546BBE6260F94FD525A8484A = {
+			isa = PBXGroup;
+			children = (
+				6DA85F65280779C54A2E0073 /* Podfile */,
+				9DCBBD12061CA7AC28667B3D /* Frameworks */,
+				63FE5A3A9369A968EE70DD1F /* Pods */,
+				C43E863DC13A63D1FCD34ABE /* Products */,
+				A42F3332F70ECCC3F2A952F6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		5944EDC3999BAC672E0245BC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				94D163CDD2E91EFEFAF9D6A4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63FE5A3A9369A968EE70DD1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B78118DB3056F74EFC2BF6B2 /* Onboard */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8AA3A6B2DCF16390703A7291 /* Pods-haikubo */ = {
+			isa = PBXGroup;
+			children = (
+				884C456939CB026EDEF2CBFC /* Pods-haikubo-acknowledgements.markdown */,
+				09CE1E2BBE5794054E78DAF8 /* Pods-haikubo-acknowledgements.plist */,
+				98DE9BB5D57C3F7FD1C5F896 /* Pods-haikubo-dummy.m */,
+				6D74C117E7EB4B227C3DA072 /* Pods-haikubo-environment.h */,
+				A0C67EEF753CD130257BED24 /* Pods-haikubo-resources.sh */,
+				6B56E3260F1E76FE938FE4F7 /* Pods-haikubo.debug.xcconfig */,
+				2C3AA0BDFBDC6B2D33B34255 /* Pods-haikubo.release.xcconfig */,
+			);
+			name = "Pods-haikubo";
+			path = "Target Support Files/Pods-haikubo";
+			sourceTree = "<group>";
+		};
+		9B17BC6F7BA985591C7470AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36B0076E17B6E9C79D21F62D /* Pods-haikubo-Onboard.xcconfig */,
+				1A39F1D76538472BDCEE57B2 /* Pods-haikubo-Onboard-Private.xcconfig */,
+				119D55679F32AD56B4EABE7F /* Pods-haikubo-Onboard-dummy.m */,
+				7A5F61B46453EFA005D5922C /* Pods-haikubo-Onboard-prefix.pch */,
+				01A4C1607FE22A8A8A496E4A /* Pods-haikuboTests-Onboard.xcconfig */,
+				0B167490C25F2034B53CA116 /* Pods-haikuboTests-Onboard-Private.xcconfig */,
+				2F4317FC40C809BBC6EAA818 /* Pods-haikuboTests-Onboard-dummy.m */,
+				DE56148DB5A3CE33F1D14887 /* Pods-haikuboTests-Onboard-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-haikubo-Onboard";
+			sourceTree = "<group>";
+		};
+		9DCBBD12061CA7AC28667B3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5944EDC3999BAC672E0245BC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A42F3332F70ECCC3F2A952F6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AA3A6B2DCF16390703A7291 /* Pods-haikubo */,
+				DDA8E596DD2A5972DB69DD31 /* Pods-haikuboTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B78118DB3056F74EFC2BF6B2 /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				DBA88E5ACC06E3956812A8F3 /* OnboardingContentViewController.h */,
+				0D48024B3238615F4C3CD390 /* OnboardingContentViewController.m */,
+				E1247DACEFB2C56ACDA398B5 /* OnboardingViewController.h */,
+				1C443B942689A3ABCD4ABA83 /* OnboardingViewController.m */,
+				9B17BC6F7BA985591C7470AA /* Support Files */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		C43E863DC13A63D1FCD34ABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				351997E4E9397E6C9E61BE1B /* libPods-haikubo.a */,
+				88CB2FC7629F4D2439D20D49 /* libPods-haikubo-Onboard.a */,
+				659AC6682E4577813FB75792 /* libPods-haikuboTests.a */,
+				423EE86061645C1968EC8D41 /* libPods-haikuboTests-Onboard.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDA8E596DD2A5972DB69DD31 /* Pods-haikuboTests */ = {
+			isa = PBXGroup;
+			children = (
+				B45D67B61BB8753D56BFDFBA /* Pods-haikuboTests-acknowledgements.markdown */,
+				98C5E26D59F41E311E9FF61E /* Pods-haikuboTests-acknowledgements.plist */,
+				775E7154FAA74A8DA007EEC7 /* Pods-haikuboTests-dummy.m */,
+				17B1CB321CBB78F541CCB2CE /* Pods-haikuboTests-environment.h */,
+				C561A2D9A600B580FE0037EA /* Pods-haikuboTests-resources.sh */,
+				9462492A1BDE75DDEEC6E4D3 /* Pods-haikuboTests.debug.xcconfig */,
+				5D35E97DD7C5F5431B067FEF /* Pods-haikuboTests.release.xcconfig */,
+			);
+			name = "Pods-haikuboTests";
+			path = "Target Support Files/Pods-haikuboTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0917DCEB2A81EAF7C1AAD41B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF29B1AE4F48E734E724BBB7 /* OnboardingContentViewController.h in Headers */,
+				F18CB9922F3EC7D7D58CA513 /* OnboardingViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E3090B1A0933BEEA611DF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E43DDAD6301AA52A07C2A3C /* OnboardingContentViewController.h in Headers */,
+				B2800A6F4EBAAA73AE7AAB66 /* OnboardingViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17117EF357394D1332D44007 /* Pods-haikubo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C588410AB3849C17CAB82728 /* Build configuration list for PBXNativeTarget "Pods-haikubo" */;
+			buildPhases = (
+				4415FE0BDD10920252F962FD /* Sources */,
+				1516AD4257CA4BCBF147513E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85FB03B30697815035D11D1B /* PBXTargetDependency */,
+			);
+			name = "Pods-haikubo";
+			productName = "Pods-haikubo";
+			productReference = 351997E4E9397E6C9E61BE1B /* libPods-haikubo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1F598C584C7C94FDAB4D420C /* Pods-haikuboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C76BB6062DD8D11B8D07E2 /* Build configuration list for PBXNativeTarget "Pods-haikuboTests" */;
+			buildPhases = (
+				C5892911C612F85EA82B46AE /* Sources */,
+				A91462259D6B09C3B05E5DE4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8257AD1A0B5D1EB4B1E1F9B /* PBXTargetDependency */,
+			);
+			name = "Pods-haikuboTests";
+			productName = "Pods-haikuboTests";
+			productReference = 659AC6682E4577813FB75792 /* libPods-haikuboTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4160CF3C43F9F5153126F441 /* Pods-haikuboTests-Onboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72306C76A1DD100E029F6415 /* Build configuration list for PBXNativeTarget "Pods-haikuboTests-Onboard" */;
+			buildPhases = (
+				9654E1063018A89770ED5824 /* Sources */,
+				D68A85F5AA4BE786DA2DB027 /* Frameworks */,
+				0917DCEB2A81EAF7C1AAD41B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-haikuboTests-Onboard";
+			productName = "Pods-haikuboTests-Onboard";
+			productReference = 423EE86061645C1968EC8D41 /* libPods-haikuboTests-Onboard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A4C4973B0B1B52A54117B1FD /* Pods-haikubo-Onboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D73B3CCEA75A316BB1F42BC /* Build configuration list for PBXNativeTarget "Pods-haikubo-Onboard" */;
+			buildPhases = (
+				C4EB25B2418A3956C4D1EA8E /* Sources */,
+				6A2860B0610D0A2D670C0800 /* Frameworks */,
+				A7E3090B1A0933BEEA611DF6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-haikubo-Onboard";
+			productName = "Pods-haikubo-Onboard";
+			productReference = 88CB2FC7629F4D2439D20D49 /* libPods-haikubo-Onboard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D06740A0157E1C4993ED3F22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = BE70E1F7922C1C2E5213547D /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 546BBE6260F94FD525A8484A;
+			productRefGroup = C43E863DC13A63D1FCD34ABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17117EF357394D1332D44007 /* Pods-haikubo */,
+				A4C4973B0B1B52A54117B1FD /* Pods-haikubo-Onboard */,
+				1F598C584C7C94FDAB4D420C /* Pods-haikuboTests */,
+				4160CF3C43F9F5153126F441 /* Pods-haikuboTests-Onboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4415FE0BDD10920252F962FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6630BE43823437D445AB49D /* Pods-haikubo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9654E1063018A89770ED5824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4D8E6219B8CA718359E1EC /* OnboardingContentViewController.m in Sources */,
+				6B2A132A0912CFD4129E7D44 /* OnboardingViewController.m in Sources */,
+				02FFE5F59070DB1D4B4E543E /* Pods-haikuboTests-Onboard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EB25B2418A3956C4D1EA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8805CB41200ADE9ED0F55199 /* OnboardingContentViewController.m in Sources */,
+				455CD775EF9DADDEBFAEB031 /* OnboardingViewController.m in Sources */,
+				3BDE7243F1F14AD055F918A0 /* Pods-haikubo-Onboard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5892911C612F85EA82B46AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BC25838C8D0CFCA353A1A0 /* Pods-haikuboTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85FB03B30697815035D11D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-haikubo-Onboard";
+			target = A4C4973B0B1B52A54117B1FD /* Pods-haikubo-Onboard */;
+			targetProxy = 8F3A51506F5480C892D0C07E /* PBXContainerItemProxy */;
+		};
+		D8257AD1A0B5D1EB4B1E1F9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-haikuboTests-Onboard";
+			target = 4160CF3C43F9F5153126F441 /* Pods-haikuboTests-Onboard */;
+			targetProxy = 1D1BB44D0E012721011B7341 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01E8AD3B8B2D8A0D6BACA37C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A39F1D76538472BDCEE57B2 /* Pods-haikubo-Onboard-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-haikubo-Onboard/Pods-haikubo-Onboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		053A60A355CD7F615F402512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B167490C25F2034B53CA116 /* Pods-haikuboTests-Onboard-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-haikuboTests-Onboard/Pods-haikuboTests-Onboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0C331D1BC70E7906D7923092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B56E3260F1E76FE938FE4F7 /* Pods-haikubo.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1BF328DBF99AA74D6097EB48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A39F1D76538472BDCEE57B2 /* Pods-haikubo-Onboard-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-haikubo-Onboard/Pods-haikubo-Onboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		39E134BC3EFAF271F8422B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48E3982FE7C106D55AA27E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C3AA0BDFBDC6B2D33B34255 /* Pods-haikubo.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		58CAD9A1908886FD6D33C882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D35E97DD7C5F5431B067FEF /* Pods-haikuboTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5AED82999097F4120D7009F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B167490C25F2034B53CA116 /* Pods-haikuboTests-Onboard-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-haikuboTests-Onboard/Pods-haikuboTests-Onboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6B5A02EAED753BD870C62BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9462492A1BDE75DDEEC6E4D3 /* Pods-haikuboTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E9852FF85920F618363160DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D73B3CCEA75A316BB1F42BC /* Build configuration list for PBXNativeTarget "Pods-haikubo-Onboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF328DBF99AA74D6097EB48 /* Debug */,
+				01E8AD3B8B2D8A0D6BACA37C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72306C76A1DD100E029F6415 /* Build configuration list for PBXNativeTarget "Pods-haikuboTests-Onboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AED82999097F4120D7009F1 /* Debug */,
+				053A60A355CD7F615F402512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8C76BB6062DD8D11B8D07E2 /* Build configuration list for PBXNativeTarget "Pods-haikuboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5A02EAED753BD870C62BF6 /* Debug */,
+				58CAD9A1908886FD6D33C882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE70E1F7922C1C2E5213547D /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9852FF85920F618363160DC /* Debug */,
+				39E134BC3EFAF271F8422B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C588410AB3849C17CAB82728 /* Build configuration list for PBXNativeTarget "Pods-haikubo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C331D1BC70E7906D7923092 /* Debug */,
+				48E3982FE7C106D55AA27E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D06740A0157E1C4993ED3F22 /* Project object */;
+}

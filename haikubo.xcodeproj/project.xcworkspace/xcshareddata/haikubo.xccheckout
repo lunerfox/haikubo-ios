@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2E0DD3BF-F335-414E-BCE6-275C39D1490C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>haikubo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DE6CFBC8817143C219406117EFCDA4E90A762016</key>
+		<string>bitbucket.org:wrightplay/haikubo-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>haikubo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DE6CFBC8817143C219406117EFCDA4E90A762016</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>bitbucket.org:wrightplay/haikubo-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DE6CFBC8817143C219406117EFCDA4E90A762016</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DE6CFBC8817143C219406117EFCDA4E90A762016</string>
+			<key>IDESourceControlWCCName</key>
+			<string>haikubo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
