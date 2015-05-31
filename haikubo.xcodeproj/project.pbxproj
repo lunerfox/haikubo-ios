@@ -34,6 +34,7 @@
 		252EAD6F67DFFDA0444E4C76 /* Pods-haikubo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haikubo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-haikubo/Pods-haikubo.debug.xcconfig"; sourceTree = "<group>"; };
 		498B93641DD3A9EE18C64FCE /* Pods-haikuboTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haikuboTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-haikuboTests/Pods-haikuboTests.debug.xcconfig"; sourceTree = "<group>"; };
 		587A81305F2EC9CD7215B6E2 /* libPods-haikuboTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-haikuboTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		972B7B681B1B3CE0000B3175 /* ObjC-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjC-Bridge.h"; sourceTree = "<group>"; };
 		973D0DFB1B1A87E400E6CBC0 /* haikubo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = haikubo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		973D0DFF1B1A87E400E6CBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		973D0E001B1A87E400E6CBC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				973D0E001B1A87E400E6CBC0 /* AppDelegate.swift */,
+				972B7B681B1B3CE0000B3175 /* ObjC-Bridge.h */,
 				973D0E021B1A87E400E6CBC0 /* WorldViewController.swift */,
 				973D0E041B1A87E400E6CBC0 /* DiscoverViewController.swift */,
 				973D0E361B1AED8B00E6CBC0 /* PostViewController.swift */,
@@ -451,6 +453,7 @@
 				INFOPLIST_FILE = haikubo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "haikubo/ObjC-Bridge.h";
 			};
 			name = Debug;
 		};
@@ -462,6 +465,7 @@
 				INFOPLIST_FILE = haikubo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "haikubo/ObjC-Bridge.h";
 			};
 			name = Release;
 		};
