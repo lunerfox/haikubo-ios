@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  WorldViewController.swift
 //  haikubo
 //
 //  Created by Leo Szeto on 5/31/15.
@@ -14,6 +14,7 @@ class WorldViewController: UIViewController {
         super.viewDidLoad()
         println("World View Controller Loaded into Memory. [viewDidLoad]")
         // Do any additional setup after loading the view, typically from a nib.
+        // The first time this loads ever, present the onboarding screen instead.
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,10 +24,19 @@ class WorldViewController: UIViewController {
 
     override func viewDidAppear(animated: Bool) {
         println("World View Controller Appeared. [viewDidAppear]")
+
+
     }
     
     override func viewDidDisappear(animated: Bool) {
         println("World View Controller Disappeared. [viewDidDisappear]")
+    }
+    
+    
+    @IBAction func btnResetOnboardPressed(sender: AnyObject) {
+        NSUserDefaults.standardUserDefaults().setObject(0, forKey: "isFirstTime")
+        NSUserDefaults.standardUserDefaults().synchronize()
+        println("Tutorial has been reset.")
     }
 }
 
