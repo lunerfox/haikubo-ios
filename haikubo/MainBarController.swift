@@ -59,7 +59,7 @@ class MainBarController: UITabBarController {
             let onboardingVC: OnboardingViewController = OnboardingViewController(backgroundImage: UIImage(named: "onboard"), contents: [firstPage, secondPage, thirdPage, fourthPage])
             
             //Configuration settings for the Onboarding library
-            //I can change all of this to however I want at the end of each page.
+            //I can change all of this to however I want at the end of each page. 
             onboardingVC.fontName = "Helvetica-Light";
             onboardingVC.titleFontSize = 36;
             onboardingVC.bodyFontSize = 22;

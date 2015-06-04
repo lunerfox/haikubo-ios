@@ -16,51 +16,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="World View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="210" y="279" width="181" height="42"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by WorldViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
-                                <rect key="frame" x="199" y="329" width="204" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gs-G9-whW">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                                 <items>
                                     <navigationItem title="Top Posts" id="Wr4-Pk-s05">
-                                        <barButtonItem key="leftBarButtonItem" image="tab_menu" id="QOo-2b-sOP"/>
+                                        <barButtonItem key="leftBarButtonItem" image="tab_menu" id="QOo-2b-sOP">
+                                            <connections>
+                                                <segue destination="ivw-H7-NLN" kind="showDetail" id="hl8-9f-cAJ"/>
+                                            </connections>
+                                        </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="dE3-85-KlA"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2h-tV-1hK">
-                                <rect key="frame" x="243" y="445" width="114" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="114" id="rgl-VN-h0J"/>
-                                </constraints>
-                                <state key="normal" title="Git Onboard!">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnResetOnboardPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="ml6-L5-Qqy"/>
-                                </connections>
-                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="WPB-Nr-Jax">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <sections/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="S2h-tV-1hK" secondAttribute="bottom" constant="76" id="5uM-pI-L5S"/>
                             <constraint firstItem="3gs-G9-whW" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="Fyf-rY-mad"/>
-                            <constraint firstItem="KQZ-1w-vlD" firstAttribute="centerX" secondItem="A5M-7J-77L" secondAttribute="centerX" constant="-1" id="Sg9-e4-xTR"/>
-                            <constraint firstItem="S2h-tV-1hK" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="biM-co-M5Q"/>
-                            <constraint firstItem="KQZ-1w-vlD" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="bx2-ZI-qaS"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="hWy-ww-5sx"/>
                             <constraint firstItem="3gs-G9-whW" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="jNd-mk-tEu"/>
-                            <constraint firstItem="KQZ-1w-vlD" firstAttribute="centerX" secondItem="3gs-G9-whW" secondAttribute="centerX" id="pJj-nx-Vbf"/>
                             <constraint firstAttribute="trailing" secondItem="3gs-G9-whW" secondAttribute="trailing" id="qQB-kl-zyP"/>
                         </constraints>
                     </view>
@@ -93,20 +71,24 @@
                                     <constraint firstAttribute="width" constant="210" id="cY6-mS-7bY"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by PostViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
                                 <rect key="frame" x="202" y="329" width="196" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a6E-Im-imF">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                                 <items>
                                     <navigationItem title="Compose a Haiku" id="Vgu-YL-iGl">
-                                        <barButtonItem key="leftBarButtonItem" image="tab_menu" id="ZBe-Gp-Z9S"/>
+                                        <barButtonItem key="leftBarButtonItem" image="tab_menu" id="ZBe-Gp-Z9S">
+                                            <connections>
+                                                <segue destination="ivw-H7-NLN" kind="showDetail" id="08V-Vw-lpN"/>
+                                            </connections>
+                                        </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="mUq-0Z-HQf"/>
                                     </navigationItem>
                                 </items>
@@ -149,7 +131,11 @@
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                                 <items>
                                     <navigationItem title="Discovering..." id="62A-sR-ire">
-                                        <barButtonItem key="leftBarButtonItem" image="tab_menu" id="PFA-dl-prR"/>
+                                        <barButtonItem key="leftBarButtonItem" image="tab_menu" id="PFA-dl-prR">
+                                            <connections>
+                                                <segue destination="ivw-H7-NLN" kind="showDetail" id="i9a-dn-x8g"/>
+                                            </connections>
+                                        </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="vqm-4V-oPk"/>
                                     </navigationItem>
                                 </items>
@@ -161,13 +147,13 @@
                                     <constraint firstAttribute="width" constant="210" id="mxN-pv-9Y6"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by Discovery View Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYB-MB-g8f">
                                 <rect key="frame" x="181" y="322" width="238" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -192,6 +178,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nUY-LT-GRD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-66" y="1147"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Rzw-PT-1XQ">
+            <objects>
+                <viewController id="ivw-H7-NLN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VGs-D4-XmB"/>
+                        <viewControllerLayoutGuide type="bottom" id="SRh-lh-9u9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oeX-fp-0VP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pNh-je-kYr">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Settings" id="Z2v-G3-GM1">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="uGz-Iy-o8p">
+                                            <connections>
+                                                <segue destination="49e-Tb-3d3" kind="show" id="XkZ-b5-hUV"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="pNh-je-kYr" secondAttribute="trailing" id="Z9L-E8-8Wx"/>
+                            <constraint firstItem="pNh-je-kYr" firstAttribute="top" secondItem="VGs-D4-XmB" secondAttribute="bottom" constant="8" id="tZr-pr-F2v"/>
+                            <constraint firstItem="pNh-je-kYr" firstAttribute="leading" secondItem="oeX-fp-0VP" secondAttribute="leading" id="xXj-0l-Dpc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vGo-Uf-ops" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-66" y="1940"/>
         </scene>
         <!--Main Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -223,4 +246,7 @@
         <image name="tab_mapMarker_filled" width="25" height="25"/>
         <image name="tab_menu" width="25" height="25"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="08V-Vw-lpN"/>
+    </inferredMetricsTieBreakers>
 </document>

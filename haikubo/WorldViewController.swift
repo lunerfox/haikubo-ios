@@ -32,11 +32,12 @@ class WorldViewController: UIViewController {
         println("World View Controller Disappeared. [viewDidDisappear]")
     }
     
-    
+    /*
     @IBAction func btnResetOnboardPressed(sender: AnyObject) {
         NSUserDefaults.standardUserDefaults().setObject(0, forKey: "isFirstTime")
         NSUserDefaults.standardUserDefaults().synchronize()
         println("Tutorial has been reset.")
     }
+    */
 }
 
