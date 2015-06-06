@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "973D0DFA1B1A87E400E6CBC0"
-               BuildableName = "haikubo.app"
-               BlueprintName = "haikubo"
-               ReferencedContainer = "container:haikubo.xcodeproj">
+               BuildableName = "Haikubo.app"
+               BlueprintName = "Haikubo.temp_caseinsensitive_rename"
+               ReferencedContainer = "container:Haikubo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "973D0E111B1A87E500E6CBC0"
-               BuildableName = "haikuboTests.xctest"
-               BlueprintName = "haikuboTests"
-               ReferencedContainer = "container:haikubo.xcodeproj">
+               BuildableName = "Haikubo.temp_caseinsensitive_renameTests.xctest"
+               BlueprintName = "Haikubo.temp_caseinsensitive_renameTests"
+               ReferencedContainer = "container:Haikubo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "973D0E111B1A87E500E6CBC0"
-               BuildableName = "haikuboTests.xctest"
-               BlueprintName = "haikuboTests"
-               ReferencedContainer = "container:haikubo.xcodeproj">
+               BuildableName = "Haikubo.temp_caseinsensitive_renameTests.xctest"
+               BlueprintName = "Haikubo.temp_caseinsensitive_renameTests"
+               ReferencedContainer = "container:Haikubo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "973D0DFA1B1A87E400E6CBC0"
-            BuildableName = "haikubo.app"
-            BlueprintName = "haikubo"
-            ReferencedContainer = "container:haikubo.xcodeproj">
+            BuildableName = "Haikubo.app"
+            BlueprintName = "Haikubo.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:Haikubo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "973D0DFA1B1A87E400E6CBC0"
-            BuildableName = "haikubo.app"
-            BlueprintName = "haikubo"
-            ReferencedContainer = "container:haikubo.xcodeproj">
+            BuildableName = "Haikubo.app"
+            BlueprintName = "Haikubo.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:Haikubo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "973D0DFA1B1A87E400E6CBC0"
-            BuildableName = "haikubo.app"
-            BlueprintName = "haikubo"
-            ReferencedContainer = "container:haikubo.xcodeproj">
+            BuildableName = "Haikubo.app"
+            BlueprintName = "Haikubo.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:Haikubo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
