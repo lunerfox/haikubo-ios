@@ -10,6 +10,16 @@ import UIKit
 
 class MainBarController: UITabBarController {
 
+    func tutorialDone() -> Bool {
+        var userDefaults : NSUserDefaults = NSUserDefaults.standardUserDefaults()
+        
+        if (userDefaults.objectForKey("isFirstTIme") != nil) {
+            return false
+        }
+        
+        return true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         println("Main Bar Controller Loaded into Memory. [viewDidLoad]")
@@ -23,11 +33,10 @@ class MainBarController: UITabBarController {
     
     override func viewDidAppear(animated: Bool) {
         println("Main Bar Controller Appeared. [viewDidAppear]")
-        var seenTutorial = NSUserDefaults.standardUserDefaults().valueForKey("isFirstTime") as! Int
-        println(seenTutorial)
-        if seenTutorial == 1
+        
+        if tutorialDone()
         {
-            println("Tutorial has been seen before")
+            println("Tutorial has been seen before on this device")
         }
         else
         {

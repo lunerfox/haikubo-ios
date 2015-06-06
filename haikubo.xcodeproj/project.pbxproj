@@ -17,6 +17,7 @@
 		973D0E0D1B1A87E500E6CBC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 973D0E0B1B1A87E500E6CBC0 /* LaunchScreen.xib */; };
 		973D0E191B1A87E500E6CBC0 /* haikuboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973D0E181B1A87E500E6CBC0 /* haikuboTests.swift */; };
 		973D0E371B1AED8B00E6CBC0 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973D0E361B1AED8B00E6CBC0 /* PostViewController.swift */; };
+		976180C11B22922500897F28 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 976180C01B22922500897F28 /* Settings.bundle */; };
 		F8A2AF5B86AA6E7AF7F02112 /* libPods-haikubo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24594677419F9A5C1785F2E7 /* libPods-haikubo.a */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		973D0E171B1A87E500E6CBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		973D0E181B1A87E500E6CBC0 /* haikuboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haikuboTests.swift; sourceTree = "<group>"; };
 		973D0E361B1AED8B00E6CBC0 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		976180C01B22922500897F28 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		B3DC6964097D3D5DEAA863E0 /* Pods-haikuboTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haikuboTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-haikuboTests/Pods-haikuboTests.release.xcconfig"; sourceTree = "<group>"; };
 		F0149BEE5AE2487A5EAF399B /* Pods-haikubo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haikubo.release.xcconfig"; path = "Pods/Target Support Files/Pods-haikubo/Pods-haikubo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +118,7 @@
 				973D0E061B1A87E400E6CBC0 /* Main.storyboard */,
 				973D0E091B1A87E500E6CBC0 /* Images.xcassets */,
 				973D0E0B1B1A87E500E6CBC0 /* LaunchScreen.xib */,
+				976180C01B22922500897F28 /* Settings.bundle */,
 				973D0DFE1B1A87E400E6CBC0 /* Supporting Files */,
 			);
 			path = haikubo;
@@ -208,6 +211,7 @@
 				TargetAttributes = {
 					973D0DFA1B1A87E400E6CBC0 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = XCYXXDDPG8;
 					};
 					973D0E111B1A87E500E6CBC0 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -239,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				976180C11B22922500897F28 /* Settings.bundle in Resources */,
 				973D0E081B1A87E400E6CBC0 /* Main.storyboard in Resources */,
 				973D0E0D1B1A87E500E6CBC0 /* LaunchScreen.xib in Resources */,
 				973D0E0A1B1A87E500E6CBC0 /* Images.xcassets in Resources */,
@@ -454,6 +459,7 @@
 			baseConfigurationReference = 252EAD6F67DFFDA0444E4C76 /* Pods-haikubo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = haikubo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -466,6 +472,7 @@
 			baseConfigurationReference = F0149BEE5AE2487A5EAF399B /* Pods-haikubo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = haikubo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
