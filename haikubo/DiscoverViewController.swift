@@ -8,9 +8,13 @@
 
 import UIKit
 import MapKit
+import CoreLocation
 
 class DiscoverViewController: UIViewController {
 
+    @IBOutlet weak var discoverMap: MKMapView!
+    var locationManager: CLLocationManager!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         println("Discover View Controller Loaded into Memory. [viewDidLoad]")

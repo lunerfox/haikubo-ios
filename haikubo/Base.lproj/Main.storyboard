@@ -64,22 +64,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Post View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="195" y="279" width="210" height="42"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="210" id="cY6-mS-7bY"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by PostViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
-                                <rect key="frame" x="202" y="329" width="196" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a6E-Im-imF">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                                 <items>
@@ -96,13 +80,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="4dg-EE-Ae6"/>
-                            <constraint firstItem="zEq-FU-wV5" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="Akx-Th-EpE"/>
-                            <constraint firstItem="zEq-FU-wV5" firstAttribute="centerX" secondItem="a6E-Im-imF" secondAttribute="centerX" id="XdD-53-o9n"/>
-                            <constraint firstItem="zEq-FU-wV5" firstAttribute="centerX" secondItem="NDk-cv-Gan" secondAttribute="centerX" id="fvr-LS-9ud"/>
-                            <constraint firstItem="a6E-Im-imF" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="gS5-Sz-45r"/>
-                            <constraint firstItem="a6E-Im-imF" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="m3t-fX-EB4"/>
-                            <constraint firstItem="zEq-FU-wV5" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" id="tGE-o8-k9V"/>
+                            <constraint firstItem="a6E-Im-imF" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="55k-Ox-v6f"/>
+                            <constraint firstAttribute="trailing" secondItem="a6E-Im-imF" secondAttribute="trailing" id="KHV-cM-Mvh"/>
+                            <constraint firstItem="a6E-Im-imF" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="Uut-CB-4GP"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Post" image="tab_chisel" selectedImage="tab_chisel_filled" id="cPa-gy-q4n">
@@ -161,6 +141,7 @@
                     </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="discoverMap" destination="ggG-Fn-zA7" id="4YT-mS-Y0f"/>
                         <outlet property="searchDisplayController" destination="XCD-CJ-v1I" id="153-UI-AD3"/>
                     </connections>
                 </viewController>
@@ -244,6 +225,6 @@
         <image name="tab_menu" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="i9a-dn-x8g"/>
+        <segue reference="hl8-9f-cAJ"/>
     </inferredMetricsTieBreakers>
 </document>

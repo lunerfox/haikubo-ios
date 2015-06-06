@@ -47,7 +47,7 @@
 		973D0E071B1A87E400E6CBC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		973D0E091B1A87E500E6CBC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		973D0E0C1B1A87E500E6CBC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		973D0E121B1A87E500E6CBC0 /* haikuboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = haikuboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		973D0E121B1A87E500E6CBC0 /* Haikubo.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Haikubo.temp_caseinsensitive_renameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		973D0E171B1A87E500E6CBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		973D0E181B1A87E500E6CBC0 /* haikuboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haikuboTests.swift; sourceTree = "<group>"; };
 		973D0E361B1AED8B00E6CBC0 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				973D0DFB1B1A87E400E6CBC0 /* Haikubo.app */,
-				973D0E121B1A87E500E6CBC0 /* haikuboTests.xctest */,
+				973D0E121B1A87E500E6CBC0 /* Haikubo.temp_caseinsensitive_renameTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,9 +165,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		973D0DFA1B1A87E400E6CBC0 /* haikubo */ = {
+		973D0DFA1B1A87E400E6CBC0 /* Haikubo.temp_caseinsensitive_rename */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 973D0E1C1B1A87E500E6CBC0 /* Build configuration list for PBXNativeTarget "haikubo" */;
+			buildConfigurationList = 973D0E1C1B1A87E500E6CBC0 /* Build configuration list for PBXNativeTarget "Haikubo.temp_caseinsensitive_rename" */;
 			buildPhases = (
 				AA3D6C5923DE051F369E5F46 /* Check Pods Manifest.lock */,
 				973D0DF71B1A87E400E6CBC0 /* Sources */,
@@ -179,14 +179,14 @@
 			);
 			dependencies = (
 			);
-			name = haikubo;
+			name = Haikubo.temp_caseinsensitive_rename;
 			productName = haikubo;
 			productReference = 973D0DFB1B1A87E400E6CBC0 /* Haikubo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		973D0E111B1A87E500E6CBC0 /* haikuboTests */ = {
+		973D0E111B1A87E500E6CBC0 /* Haikubo.temp_caseinsensitive_renameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 973D0E1F1B1A87E500E6CBC0 /* Build configuration list for PBXNativeTarget "haikuboTests" */;
+			buildConfigurationList = 973D0E1F1B1A87E500E6CBC0 /* Build configuration list for PBXNativeTarget "Haikubo.temp_caseinsensitive_renameTests" */;
 			buildPhases = (
 				3C20EB1777ADB77776955B60 /* Check Pods Manifest.lock */,
 				973D0E0E1B1A87E500E6CBC0 /* Sources */,
@@ -199,9 +199,9 @@
 			dependencies = (
 				973D0E141B1A87E500E6CBC0 /* PBXTargetDependency */,
 			);
-			name = haikuboTests;
+			name = Haikubo.temp_caseinsensitive_renameTests;
 			productName = haikuboTests;
-			productReference = 973D0E121B1A87E500E6CBC0 /* haikuboTests.xctest */;
+			productReference = 973D0E121B1A87E500E6CBC0 /* Haikubo.temp_caseinsensitive_renameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -223,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 973D0DF61B1A87E400E6CBC0 /* Build configuration list for PBXProject "haikubo" */;
+			buildConfigurationList = 973D0DF61B1A87E400E6CBC0 /* Build configuration list for PBXProject "Haikubo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -236,8 +236,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				973D0DFA1B1A87E400E6CBC0 /* haikubo */,
-				973D0E111B1A87E500E6CBC0 /* haikuboTests */,
+				973D0DFA1B1A87E400E6CBC0 /* Haikubo.temp_caseinsensitive_rename */,
+				973D0E111B1A87E500E6CBC0 /* Haikubo.temp_caseinsensitive_renameTests */,
 			);
 		};
 /* End PBXProject section */
@@ -352,7 +352,7 @@
 /* Begin PBXTargetDependency section */
 		973D0E141B1A87E500E6CBC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 973D0DFA1B1A87E400E6CBC0 /* haikubo */;
+			target = 973D0DFA1B1A87E400E6CBC0 /* Haikubo.temp_caseinsensitive_rename */;
 			targetProxy = 973D0E131B1A87E500E6CBC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -499,7 +499,7 @@
 				);
 				INFOPLIST_FILE = haikuboTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Haikubo.temp_caseinsensitive_renameTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/haikubo.app/haikubo";
 			};
 			name = Debug;
@@ -515,7 +515,7 @@
 				);
 				INFOPLIST_FILE = haikuboTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Haikubo.temp_caseinsensitive_renameTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/haikubo.app/haikubo";
 			};
 			name = Release;
@@ -523,7 +523,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		973D0DF61B1A87E400E6CBC0 /* Build configuration list for PBXProject "haikubo" */ = {
+		973D0DF61B1A87E400E6CBC0 /* Build configuration list for PBXProject "Haikubo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				973D0E1A1B1A87E500E6CBC0 /* Debug */,
@@ -532,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		973D0E1C1B1A87E500E6CBC0 /* Build configuration list for PBXNativeTarget "haikubo" */ = {
+		973D0E1C1B1A87E500E6CBC0 /* Build configuration list for PBXNativeTarget "Haikubo.temp_caseinsensitive_rename" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				973D0E1D1B1A87E500E6CBC0 /* Debug */,
@@ -541,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		973D0E1F1B1A87E500E6CBC0 /* Build configuration list for PBXNativeTarget "haikuboTests" */ = {
+		973D0E1F1B1A87E500E6CBC0 /* Build configuration list for PBXNativeTarget "Haikubo.temp_caseinsensitive_renameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				973D0E201B1A87E500E6CBC0 /* Debug */,
