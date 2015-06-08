@@ -31,6 +31,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
         println("APPDELEGATE: Application entered background [applicationDidEnterBackground]")
+        
+        //We may want to change the GPS accuracy to a lower state here
     }
 
     func applicationWillEnterForeground(application: UIApplication) {

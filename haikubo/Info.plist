@@ -40,6 +40,10 @@
 			<false/>
 		</dict>
 	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location is used for placing Haikus</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>To enable notifications when a Haiku is nearby</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
