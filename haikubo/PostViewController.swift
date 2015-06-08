@@ -8,7 +8,30 @@
 
 import UIKit
 
-class PostViewController: UIViewController {
+class PostViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+    
+    @IBOutlet weak var haikuImage: UIImageView!
+    
+    @IBAction func postCamBtnPressed(sender: AnyObject) {
+        println("User wants to take a photo.")
+        
+        var image = UIImagePickerController()
+        image.delegate = self
+        image.sourceType = UIImagePickerControllerSourceType.Camera
+        image.allowsEditing = false
+        
+        //Now push the camera view to the front!
+        self.presentViewController(image, animated: true, completion: nil)
+        
+    }
+    
+    //Built in function, triggered after a photo (from camera or library) has been
+    //picked.
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage!, editingInfo: [NSObject : AnyObject]!) {
+        print("Photo has been chosen")
+        haikuImage.image = image
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

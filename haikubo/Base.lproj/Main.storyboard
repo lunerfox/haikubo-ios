@@ -84,12 +84,61 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QJe-Tm-hjY">
+                                <rect key="frame" x="0.0" y="64" width="600" height="172"/>
+                            </imageView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="iKI-PF-IdX">
+                                <rect key="frame" x="0.0" y="376" width="600" height="175"/>
+                            </mapView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Haiku in each Line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lnn-g4-MNj">
+                                <rect key="frame" x="150" y="250" width="300" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="m9R-Lm-IZa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="is born in this world" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nc5-F8-t4d">
+                                <rect key="frame" x="150" y="323" width="300" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pnk-aW-emt">
+                                <rect key="frame" x="0.0" y="64" width="600" height="172"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="postCamBtnPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="0de-rj-Rvz"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="A poem of structure and grace" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gVs-6A-Y7J">
+                                <rect key="frame" x="150" y="285" width="300" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="QJe-Tm-hjY" firstAttribute="leading" secondItem="iKI-PF-IdX" secondAttribute="leading" id="22j-oJ-jhb"/>
                             <constraint firstItem="a6E-Im-imF" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="55k-Ox-v6f"/>
+                            <constraint firstItem="Lnn-g4-MNj" firstAttribute="top" secondItem="QJe-Tm-hjY" secondAttribute="bottom" constant="14" id="5H5-uM-rIq"/>
+                            <constraint firstItem="iKI-PF-IdX" firstAttribute="bottom" secondItem="Djb-ko-YwX" secondAttribute="top" id="5ma-gj-9gs"/>
+                            <constraint firstItem="gVs-6A-Y7J" firstAttribute="trailing" secondItem="nc5-F8-t4d" secondAttribute="trailing" id="7mv-tB-tCS"/>
+                            <constraint firstItem="Lnn-g4-MNj" firstAttribute="leading" secondItem="gVs-6A-Y7J" secondAttribute="leading" id="Fg7-wM-aSK"/>
+                            <constraint firstItem="QJe-Tm-hjY" firstAttribute="leading" secondItem="a6E-Im-imF" secondAttribute="leading" id="JxY-OR-gJ2"/>
                             <constraint firstAttribute="trailing" secondItem="a6E-Im-imF" secondAttribute="trailing" id="KHV-cM-Mvh"/>
+                            <constraint firstItem="QJe-Tm-hjY" firstAttribute="trailing" secondItem="iKI-PF-IdX" secondAttribute="trailing" id="LZg-pb-x4K"/>
+                            <constraint firstItem="nc5-F8-t4d" firstAttribute="top" secondItem="gVs-6A-Y7J" secondAttribute="bottom" constant="8" symbolic="YES" id="UBN-Ij-zbZ"/>
                             <constraint firstItem="a6E-Im-imF" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="Uut-CB-4GP"/>
+                            <constraint firstItem="gVs-6A-Y7J" firstAttribute="top" secondItem="Lnn-g4-MNj" secondAttribute="bottom" constant="5" id="Vbt-bc-lq0"/>
+                            <constraint firstItem="nc5-F8-t4d" firstAttribute="leading" secondItem="gVs-6A-Y7J" secondAttribute="leading" id="Yx4-9F-Hb8"/>
+                            <constraint firstItem="gVs-6A-Y7J" firstAttribute="trailing" secondItem="Lnn-g4-MNj" secondAttribute="trailing" id="i71-Fu-BVr"/>
+                            <constraint firstItem="QJe-Tm-hjY" firstAttribute="top" secondItem="a6E-Im-imF" secondAttribute="bottom" id="lpW-G1-CaH"/>
+                            <constraint firstItem="iKI-PF-IdX" firstAttribute="top" secondItem="nc5-F8-t4d" secondAttribute="bottom" constant="23" id="nyu-1o-gAB"/>
+                            <constraint firstItem="gVs-6A-Y7J" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" id="pnn-pW-hvn"/>
+                            <constraint firstItem="QJe-Tm-hjY" firstAttribute="trailing" secondItem="a6E-Im-imF" secondAttribute="trailing" id="vzg-E6-DMP"/>
+                            <constraint firstItem="QJe-Tm-hjY" firstAttribute="centerX" secondItem="Lnn-g4-MNj" secondAttribute="centerX" id="z8S-jR-Ktz"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Post" image="tab_chisel" selectedImage="tab_chisel_filled" id="cPa-gy-q4n">
@@ -97,6 +146,9 @@
                             <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="tab_chisel_filled"/>
                         </userDefinedRuntimeAttributes>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="haikuImage" destination="QJe-Tm-hjY" id="wtS-M9-xdr"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="648" y="1147"/>
@@ -234,6 +286,6 @@
         <image name="tab_menu" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hl8-9f-cAJ"/>
+        <segue reference="08V-Vw-lpN"/>
     </inferredMetricsTieBreakers>
 </document>
