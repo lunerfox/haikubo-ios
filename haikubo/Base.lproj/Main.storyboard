@@ -23,6 +23,9 @@
                             </tableView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gs-G9-whW">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                </textAttributes>
                                 <items>
                                     <navigationItem title="Top Posts" id="Wr4-Pk-s05">
                                         <barButtonItem key="leftBarButtonItem" image="tab_menu" id="QOo-2b-sOP">
@@ -55,6 +58,7 @@
         <!--Post-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
                 <viewController id="8rJ-Kc-sve" customClass="PostViewController" customModule="Haikubo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
@@ -66,6 +70,9 @@
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a6E-Im-imF">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                </textAttributes>
                                 <items>
                                     <navigationItem title="Compose a Haiku" id="Vgu-YL-iGl">
                                         <barButtonItem key="leftBarButtonItem" image="tab_menu" id="ZBe-Gp-Z9S">
@@ -91,7 +98,6 @@
                         </userDefinedRuntimeAttributes>
                     </tabBarItem>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="648" y="1147"/>
         </scene>
@@ -109,6 +115,9 @@
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j78-za-a8y">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                </textAttributes>
                                 <items>
                                     <navigationItem title="Discovering..." id="62A-sR-ire">
                                         <barButtonItem key="leftBarButtonItem" image="tab_menu" id="PFA-dl-prR">
@@ -225,6 +234,6 @@
         <image name="tab_menu" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="i9a-dn-x8g"/>
+        <segue reference="hl8-9f-cAJ"/>
     </inferredMetricsTieBreakers>
 </document>
