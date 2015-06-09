@@ -20,6 +20,7 @@
 		973D0E0D1B1A87E500E6CBC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 973D0E0B1B1A87E500E6CBC0 /* LaunchScreen.xib */; };
 		973D0E191B1A87E500E6CBC0 /* haikuboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973D0E181B1A87E500E6CBC0 /* haikuboTests.swift */; };
 		973D0E371B1AED8B00E6CBC0 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973D0E361B1AED8B00E6CBC0 /* PostViewController.swift */; };
+		974166781B27064A00C81FF1 /* SettingsViewTableSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974166771B27064A00C81FF1 /* SettingsViewTableSwitchCell.swift */; };
 		976180C11B22922500897F28 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 976180C01B22922500897F28 /* Settings.bundle */; };
 		976180C31B23133300897F28 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976180C21B23133300897F28 /* MapKit.framework */; };
 		F8A2AF5B86AA6E7AF7F02112 /* libPods-haikubo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24594677419F9A5C1785F2E7 /* libPods-haikubo.a */; };
@@ -56,6 +57,7 @@
 		973D0E171B1A87E500E6CBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		973D0E181B1A87E500E6CBC0 /* haikuboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haikuboTests.swift; sourceTree = "<group>"; };
 		973D0E361B1AED8B00E6CBC0 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		974166771B27064A00C81FF1 /* SettingsViewTableSwitchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewTableSwitchCell.swift; sourceTree = "<group>"; };
 		976180C01B22922500897F28 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		976180C21B23133300897F28 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B3DC6964097D3D5DEAA863E0 /* Pods-haikuboTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haikuboTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-haikuboTests/Pods-haikuboTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,7 +127,7 @@
 				973D0E021B1A87E400E6CBC0 /* WorldViewController.swift */,
 				973D0E041B1A87E400E6CBC0 /* DiscoverViewController.swift */,
 				973D0E361B1AED8B00E6CBC0 /* PostViewController.swift */,
-				971CAA681B26C25200D829F3 /* SettingsViewController.swift */,
+				974166761B27060200C81FF1 /* Settings Screen */,
 				973D0E061B1A87E400E6CBC0 /* Main.storyboard */,
 				973D0E091B1A87E500E6CBC0 /* Images.xcassets */,
 				973D0E0B1B1A87E500E6CBC0 /* LaunchScreen.xib */,
@@ -158,6 +160,15 @@
 				973D0E171B1A87E500E6CBC0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		974166761B27060200C81FF1 /* Settings Screen */ = {
+			isa = PBXGroup;
+			children = (
+				971CAA681B26C25200D829F3 /* SettingsViewController.swift */,
+				974166771B27064A00C81FF1 /* SettingsViewTableSwitchCell.swift */,
+			);
+			name = "Settings Screen";
 			sourceTree = "<group>";
 		};
 		AA0C852C8E2A07C6CF50AF24 /* Frameworks */ = {
@@ -345,6 +356,7 @@
 				973D0E371B1AED8B00E6CBC0 /* PostViewController.swift in Sources */,
 				973D0E051B1A87E400E6CBC0 /* DiscoverViewController.swift in Sources */,
 				973D0E011B1A87E400E6CBC0 /* AppDelegate.swift in Sources */,
+				974166781B27064A00C81FF1 /* SettingsViewTableSwitchCell.swift in Sources */,
 				973D0E031B1A87E400E6CBC0 /* WorldViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,7 +8,10 @@
 
 import UIKit
 
-class WorldViewController: UIViewController {
+class WorldViewController: UIViewController, UITableViewDelegate {
+
+    var postName = ["Post 1", "Post 2", "Post 3"]
+    //settingValue
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,12 +35,19 @@ class WorldViewController: UIViewController {
         println("World View Controller Disappeared. [viewDidDisappear]")
     }
     
-    /*
-    @IBAction func btnResetOnboardPressed(sender: AnyObject) {
-        NSUserDefaults.standardUserDefaults().setObject(0, forKey: "isFirstTime")
-        NSUserDefaults.standardUserDefaults().synchronize()
-        println("Tutorial has been reset.")
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        println("Creating Table [tableView from WorldViewController]")
+        return postName.count
     }
-    */
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        println("Creating new cell [tableView from WorldViewController]")
+        var cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "haikuPostCell")
+        
+        //println(indexPath)
+        cell.textLabel?.text = postName[indexPath.row]
+        return cell
+        
+    }
 }
 

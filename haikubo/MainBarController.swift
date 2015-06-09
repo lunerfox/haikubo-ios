@@ -55,7 +55,7 @@ class MainBarController: UITabBarController {
             }
             
             let fourthPage: OnboardingContentViewController = OnboardingContentViewController(title: "POST", body: "Share your own Haikus & place them in the world", image: UIImage(named: "icon"), buttonText: "Let's go!") {
-                // do something here when the user presses the button
+
                 NSUserDefaults.standardUserDefaults().setObject(1, forKey: "isFirstTime")
                 NSUserDefaults.standardUserDefaults().synchronize()
                 
