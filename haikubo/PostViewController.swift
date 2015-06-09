@@ -8,10 +8,24 @@
 
 import UIKit
 
-class PostViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+class PostViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate, UITextFieldDelegate {
     
     @IBOutlet weak var haikuImage: UIImageView!
+    @IBOutlet weak var haikuLine1: UITextField!
+    @IBOutlet weak var haikuLine2: UITextField!
+    @IBOutlet weak var haikuLine3: UITextField!
     
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        println("TextField is returning")
+        if(textField == haikuLine1) {
+            println("Haiku 1 is returning")
+        }
+        
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    //Triggered when a the user wants to take a photo
     @IBAction func postCamBtnPressed(sender: AnyObject) {
         println("User wants to take a photo.")
         
